@@ -26,7 +26,7 @@
                 $song = $data->tracks->items[$i]->album;
                 echo "<div class='col-4 asd'>";
                     echo "<div class='card text-center mt-5'>";
-                        echo "<img class='card-img-top' src='".$artist->images[0]->url."' alt='Card image cap' width='100%'>";
+                        echo "<img src='".$artist->images[0]->url."' alt='Card image cap' width='100%'>";
                         echo "<div class='card-body'>";
                             echo "<h3>".$artist->name."</h3>";
                             echo "<p>";
